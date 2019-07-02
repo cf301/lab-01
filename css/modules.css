@@ -1,0 +1,91 @@
+/* CREDIT GIVEN: nick helped me tell better jokes, matt helped me remember to relax, rennae let me make cat noises, melfie had my back, i still don't know how to spell jochens name */
+
+
+/* for mobile */
+@media only screen and (max-width: 767px){
+  body {
+    max-width: 480px;
+  }
+  
+  .mobile-half{
+    width: 240px;
+    height: 250px;
+    float: left;
+  }
+
+  .mobile-fullwidth {
+    width: 480px;
+  }
+
+  #a{
+    width: 480px;
+    height: 75px;
+  }
+  #b{
+    width: 480px;
+    height: 150px;
+  }
+  #c{
+    height: 125px;
+  }
+  #d{
+    height: 125px;
+  }
+  #i{
+    height: 80px;
+  }
+}
+
+
+/* for desktop  */
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: lightblue;
+  }
+  main {
+    width: 760px;
+  }
+
+  div {
+    /* display: block; */
+  }
+
+  /* width and height section */
+  #a {
+    width: 960px;
+    height: 100px; 
+  }
+  #b {
+    width: 200px;
+    height: 600px; 
+  }
+  .desktop-header{
+    width: 380px;
+    height: 200px; 
+  }
+  .desktop-content{
+    width: 190px;
+    height: 250px; 
+  }
+
+  footer{
+    width: 760px;
+    height: 150px;
+  }
+  #i {
+    height: 100%;
+    width: 100%;
+  }
+
+  /* orientations and floats */
+  .left {
+    float: left;
+  }
+  .right {
+    float: right;
+  }
+
+
+
+}
+/* end desktop */

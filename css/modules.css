@@ -1,0 +1,53 @@
+/* for mobile */
+@media only screen and (max-width: 767px){
+  body {
+    max-width: 480px;
+  }
+  
+  .mobile-half{
+    width: 240px;
+    height: 250px;
+    float: left;
+  }
+
+  .mobile-fullwidth {
+    width: 480px;
+  }
+
+  div {
+    display: inline-block;
+  }
+
+  #a{
+    width: 480px;
+    height: 75px;
+  }
+  #b{
+    width: 480px;
+    height: 150px;
+  }
+  #c{
+    height: 125px;
+  }
+  #d{
+    height: 125px;
+  }
+  #i{
+    height: 80px;
+  }
+}
+
+
+/* for desktop */
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: lightblue;
+  }
+  #a {
+    height: 100px; 
+    width: 960px;
+  }
+
+
+
+}

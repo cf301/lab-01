@@ -6,11 +6,18 @@
   body {
     max-width: 480px;
   }
-  
+ #content-box{
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 480px;
+  height: 500px;
+ }
   .mobile-half{
     width: 240px;
     height: 250px;
-    float: left;
+    
   }
 
   .mobile-fullwidth {
@@ -19,10 +26,52 @@
 
   #a{
     width: 480px;
-    height: 75px;
+    height: 150px;
   }
   #b{
     width: 480px;
+    height: 200px;
+  }
+  #c{
+    height: 175px;
+  }
+  #d{
+    height: 125px;
+  }
+  #i{
+    height: 80px;
+  }
+}
+
+/* for tablet 768 1024 */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  body {
+    max-width: 768px;
+  }
+  #content-box{
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 760px;
+  height: 760px;
+  }
+  .mobile-half{
+    width: 380px;
+    height: 380px;
+    
+  }
+
+  .mobile-fullwidth {
+    width: 760px;
+  }
+
+  #a{
+    width: 760px;
+    height: 75px;
+  }
+  #b{
+    width: 760px;
     height: 150px;
   }
   #c{
@@ -36,9 +85,8 @@
   }
 }
 
-
 /* for desktop  */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
   body {
     background-color: lightblue;
   }
@@ -77,15 +125,16 @@
     width: 100%;
   }
 
-  /* orientations and floats */
+  /* orientations for aside only */
   .left {
     float: left;
   }
   .right {
-    float: right;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
   }
-
-
 
 }
 /* end desktop */
